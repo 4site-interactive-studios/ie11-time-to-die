@@ -1,3 +1,6 @@
+<img src="https://raw.githubusercontent.com/4site-interactive-studios/ie11-time-to-die/main/ie11-time-to-die.png" width="0" height="0">
+
+![IE11 Time to Die](https://raw.githubusercontent.com/4site-interactive-studios/ie11-time-to-die/main/ie11-time-to-die.png)
 
 # IE11 Time to Die
 Let's help IE11 shed its mortal coil by displaying a simple notification popup to IE11 users letting them know that their browser is no longer receiving security updates, and websites may no longer display correctly. A link will encourage these visitors to switch to Microsoft Edge.
