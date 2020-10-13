@@ -3,11 +3,11 @@
 if (navigator.appName.indexOf("Internet Explorer")!=-1 || navigator.userAgent.match(/Trident.*rv[ :]*11\./)){
 
   // Get localstorage object
-  const ie11TimeToDieClosed = localStorage.getItem("ie11TimeToDieClosed");
-  const pastDate = localStorage.getItem("date");
+  var ie11TimeToDieClosed = localStorage.getItem("ie11TimeToDieClosed");
+  var pastDate = localStorage.getItem("date");
 
   // Get todays date
-  const today = new Date().toJSON().slice(0,10).replace(/-/g,'/');
+  var today = new Date().toJSON().slice(0,10).replace(/-/g,'/');
 
   if (ie11TimeToDieClosed === "yes" && today === pastDate) {
     document.getElementById("ie--box").style.display = "none";
@@ -19,7 +19,7 @@ if (navigator.appName.indexOf("Internet Explorer")!=-1 || navigator.userAgent.ma
 } 
 
 function closeBanner() {
-  const ie11TimeToDieClosed = localStorage.getItem('ie11TimeToDieClosed');
+  var ie11TimeToDieClosed = localStorage.getItem('ie11TimeToDieClosed');
   document.getElementById("ie--box").style.display = "none";
   localStorage.setItem("ie11TimeToDieClosed", "yes");
   localStorage.setItem("date", today);
