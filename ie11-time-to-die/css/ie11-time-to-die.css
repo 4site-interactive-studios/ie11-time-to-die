@@ -1,0 +1,44 @@
+#ie--box{
+  position: absolute !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 2147483647 !important; /* The highest z-index possible */
+}
+
+.ie--box-bg {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  background-color: rgba(0, 0, 0, 0.50) !important;
+  z-index: 1000 !important;
+}
+
+.ie--box-wrapper {
+  display: block !important;
+  position: relative !important;
+  -webkit-border-radius: 8px !important;
+     -moz-border-radius: 8px !important;
+          border-radius: 8px !important;
+  max-width: 700px !important;
+  width: 90% !important;
+  margin: auto !important;
+  margin-top: 30vh !important;
+  padding: 3rem !important;
+  background-color: white !important;
+  z-index: 2147483646 !important; /* One lower than the highest z-index possible */
+  -webkit-box-shadow: 0px 0px 53px -11px rgba(0,0,0,0.38) !important;
+     -moz-box-shadow: 0px 0px 53px -11px rgba(0,0,0,0.38) !important;
+          box-shadow: 0px 0px 53px -11px rgba(0,0,0,0.38) !important;
+}
+
+#ie--box-x {
+  text-align: right !important;
+  margin-top: -1rem !important;
+  margin-right: -1.2rem !important;
+  margin-bottom: -1rem !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+}
