@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/4site-interactive-studios/ie11-time-to-die/main/ie11-time-to-die.png" width="0" height="0">
-
 ![IE11 Time to Die](https://raw.githubusercontent.com/4site-interactive-studios/ie11-time-to-die/main/ie11-time-to-die.png)
 
 # IE11 Time to Die
