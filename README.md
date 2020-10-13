@@ -16,3 +16,12 @@ We tested both a branded and generic message when we first started doing this. T
 
 ## How is IE11 detected?
     if(navigator.appName.indexOf("Internet Explorer")!=-1 || navigator.userAgent.match(/Trident.*rv[ :]*11\./)){// Do something}
+
+# Interested in a project or have questions?
+We would love to hear from you.
+
+Bryan Casler  
+Director of Digital Strategy  
+4Site Interactive Studios  
+Cell: (315) 877-3420  
+Email: bryan@4sitestudios.com
